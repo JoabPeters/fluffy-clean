@@ -1,6 +1,6 @@
 # Fluffy Clean
 
-Business website for Fluffy Clean, Jos, Plateau State, Nigeria.
+Responsive business website for Fluffy Clean, Jos, Plateau State, Nigeria.
 
 ## Services
 - Laundry services
@@ -8,7 +8,7 @@ Business website for Fluffy Clean, Jos, Plateau State, Nigeria.
 - Fumigation
 - Waste management
 - Post-construction cleaning
-- Event and item rentals
+- Property/apartment and event-item rentals
 
 ## Service area
 Physical service delivery is currently limited to Jos, Plateau State. International enquiries are welcome.
@@ -19,9 +19,12 @@ Physical service delivery is currently limited to Jos, Plateau State. Internatio
 - Email: scpama4@gmail.com
 
 ## Website credit
-Designed & Developed by **Joab Peters Global**.
+The website footer credits **Joab Peters Global** for design and development.
 
-© Fluffy Clean. All rights reserved.
+## Run locally
+Open index.html in a browser, or serve this folder with any static web server.
 
 ## Deployment
-This is a static website and can be hosted with GitHub Pages. Enable Pages in the repository settings and select the deployment source/branch after uploading the site files.
+GitHub Actions deploys this static site to GitHub Pages from the main branch. Enable GitHub Pages in repository Settings → Pages and choose GitHub Actions as the build and deployment source.
+
+After domain DNS is configured, add a CNAME file containing fluffyservices.com.ng and set the custom domain in Pages settings.

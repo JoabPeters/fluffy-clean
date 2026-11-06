@@ -1,0 +1,30 @@
+/* Spacious refinements for the Fluffy Services reference layout. */
+.hero-photo{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(120px,.8fr);gap:10px;padding:12px 12px 12px 0;border-left:8px solid #12dce8;border-radius:38% 0 0 0/70% 0 0 0;background:linear-gradient(145deg,#0a8fc1,#e8fbff)}
+.hero-photo .hero-main-image{position:relative;inset:auto;width:100%;height:100%;min-height:360px;object-fit:cover;object-position:center 30%;border-radius:30% 0 0 18px}
+.hero-photo-stack{position:relative;z-index:1;display:grid;grid-template-rows:repeat(3,minmax(0,1fr));gap:9px;min-height:360px}
+.hero-photo-stack img{position:relative;inset:auto;display:block;width:100%;height:100%;min-height:0;object-fit:cover;border-radius:16px;border:3px solid #fff;box-shadow:0 8px 18px #06275a25}
+.hero-photo-shade{pointer-events:none}
+.photo-label{left:24px;bottom:24px}
+.rentals.section{padding:66px 0 72px;background:linear-gradient(180deg,#f7fcff,#fff)}
+.rental-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:30px}
+.rental-heading h2{font:800 clamp(30px,3.2vw,42px)/1.1 Manrope;color:#082b91;margin:0 0 10px;letter-spacing:-1.5px}
+.rental-heading h2 em{font-style:normal;color:#08b9c8}
+.rental-heading>div>p:last-child{max-width:620px;margin:0;color:#65738c;font-size:14px;line-height:1.7}
+.rental-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;align-items:stretch}
+.rental-card{min-width:0;background:#fff;border:1px solid #e0edf6;border-radius:17px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 7px 22px #0b39750d;transition:transform .2s,box-shadow .2s}
+.rental-card:hover{transform:translateY(-4px);box-shadow:0 14px 28px #0b39751a}
+.rental-card img{width:100%;height:178px;object-fit:cover;display:block;background:#eaf6fb}
+.rental-card b{font:800 14px/1.3 Manrope;color:#0a2b83;padding:13px 14px 3px;min-height:0;text-align:left;display:block}
+.rental-card small{font-size:11px;color:#75839a;padding:0 14px 15px}
+.rental-card.rental-more{justify-content:center;align-items:flex-start;padding:22px;background:linear-gradient(145deg,#092e91,#087da9);border:0;color:#fff}
+.rental-card.rental-more b{color:#fff;padding:12px 0 3px}
+.rental-card.rental-more small{color:#d5edff;padding:0}
+.more-icon{width:44px;height:44px;display:grid;place-items:center;border-radius:14px;background:#ffffff20;color:#62f3fa;font-size:28px}
+.rental-note{font-size:11px;color:#7b879b;margin:18px 0 0;line-height:1.6}
+.booking{scroll-margin-top:90px}
+@media(max-width:1100px){.hero-photo .hero-main-image,.hero-photo-stack{min-height:320px}.rental-cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.rental-card img{height:160px}}
+@media(max-width:760px){.hero-photo{grid-template-columns:minmax(0,1.35fr) minmax(90px,.8fr);min-height:260px;padding:8px 8px 8px 0;gap:7px;border-radius:26% 0 0 0/18% 0 0 0}.hero-photo .hero-main-image{min-height:245px;height:245px;border-radius:25% 0 0 15px}.hero-photo-stack{min-height:245px;grid-template-rows:repeat(3,minmax(0,1fr));gap:7px}.hero-photo-stack img{border-radius:10px;border-width:2px}.photo-label{left:14px;bottom:14px;padding:8px 11px}.rentals.section{padding:48px 0}.rental-heading{display:block;margin-bottom:22px}.rental-heading h2{font-size:30px}.rental-heading>div>p:last-child{font-size:12px}.rental-heading>.button{margin-top:17px}.rental-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.rental-card img{height:132px}.rental-card b{font-size:12px;padding:11px 11px 3px}.rental-card small{padding:0 11px 12px}.rental-card.rental-more{padding:17px}}
+@media(max-width:380px){.rental-cards{gap:8px}.rental-card img{height:112px}.rental-card b{font-size:11px}}
+@media(min-width:761px){.brand{min-width:275px;gap:10px}.brand-logo{width:66px;height:66px;object-fit:contain;flex:none}.brand-text{font:800 21px/1 Manrope;letter-spacing:-.8px;color:#071c5b;white-space:nowrap}.brand-text strong{display:block;margin-top:5px;color:#079fe7;font:800 10px/1.1 "DM Sans",sans-serif;letter-spacing:.45px}.footer-brand .brand-logo{width:58px;height:58px}.footer-brand .brand-text{color:#fff}.footer-brand .brand-text strong{color:#16bfe8}}
+@media(max-width:760px){.brand{gap:7px}.brand-logo{width:48px;height:48px;object-fit:contain;flex:none}.brand-text{font:800 15px/1 Manrope;letter-spacing:-.5px}.brand-text strong{display:block;margin-top:4px;font:800 8px/1.1 "DM Sans",sans-serif;letter-spacing:.2px;color:#079fe7}.footer-brand .brand-logo{width:52px;height:52px}.top-note{display:none}}
+.footer-inner .footer-legal{font-size:10px;color:#b5c9e9;margin-left:auto;white-space:nowrap}.footer-inner .footer-legal a{color:#d7e7ff;text-decoration:none}.footer-inner .footer-legal a:hover{text-decoration:underline}@media(max-width:760px){.footer-inner .footer-legal{margin-left:0;white-space:normal;line-height:1.6}}
