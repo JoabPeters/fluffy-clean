@@ -135,3 +135,90 @@ footer{padding:42px 0}.footer-brand .brand-logo{width:68px!important;height:68px
 .booking-inner{grid-template-columns:1fr;gap:22px}.booking form{padding:21px 16px}
 }
 @media(prefers-reduced-motion:reduce){.hero-trust,.submit-enquiry b{transition:none!important}}
+
+/* Template-inspired Fluffy Clean refresh */
+:root{--navy:#10265c;--deep:#0c2454;--blue:#0b3b87;--cyan:#36c5c5;--ink:#25334c;--muted:#718097;--pale:#f1fcfc}
+body{background:#fff;color:#26344b}
+.topbar{background:#f2fbfc;color:#5f7184;height:32px;font-size:11px}
+.topbar a{color:#0b7886}
+.header{height:76px;background:#fff;box-shadow:0 3px 18px #14345b0b}
+.nav{max-width:1240px}
+.nav-links{gap:clamp(10px,1.55vw,22px);font-size:12px;color:#4e5d70}
+.whatsapp-nav{background:#39c3c2;color:#fff;border-radius:7px;padding:12px 18px}
+.template-hero{position:relative;overflow:hidden;background:linear-gradient(112deg,#eafafb 0%,#f5ffff 53%,#e7f8f8 100%);color:#26344b}
+.template-hero:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 82% 42%,#c4f0ef 0,transparent 34%),linear-gradient(180deg,transparent 75%,#fff 100%);pointer-events:none}
+.template-hero .hero-inner{position:relative;z-index:1;max-width:1240px;min-height:510px;grid-template-columns:.9fr 1.1fr;gap:30px;padding:48px 0 72px;align-items:center}
+.template-hero .hero-copy{padding:15px 0 30px;max-width:570px}
+.template-hero .hero-copy .eyebrow{color:#159ba5;font-size:11px;letter-spacing:2px;margin-bottom:18px}
+.template-hero .hero h1,.template-hero h1{font-size:clamp(39px,4.2vw,58px);line-height:1.08;letter-spacing:-1.8px;color:#29384f;margin:0 0 17px;max-width:540px}
+.template-hero h1 em{font-style:normal;color:#32bfc0}
+.template-hero .hero-description{font-size:15px;line-height:1.75;color:#65758a;max-width:490px;margin-bottom:18px}
+.hero-promise{padding:0;margin:0 0 23px;list-style:none;display:grid;gap:8px;color:#5b6d80;font-size:12px}
+.hero-promise li:before{content:"✓";display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:#d9f5f3;color:#0a9da3;font-weight:900;margin-right:9px}
+.template-hero .hero-buttons{gap:10px;flex-wrap:wrap}
+.template-hero .button{border-radius:7px;min-height:42px;padding:12px 19px}
+.template-hero .blue-button{background:#36bfc0;color:#fff;box-shadow:0 8px 18px #35bfc02c}
+.template-hero .outline-button{border:1px solid #b7e5e4;color:#298e96;background:#ffffffa8;min-width:0}
+.template-hero .hero-photo{height:410px;min-height:410px;border:0;border-radius:48% 48% 18px 18px/36% 36% 18px 18px;padding:0;background:transparent;box-shadow:none;overflow:hidden}
+.template-hero .hero-photo .hero-main-image{height:100%;min-height:0;object-fit:cover;object-position:center 28%;border-radius:0;clip-path:ellipse(76% 72% at 57% 48%)}
+.template-hero .hero-photo-shade{display:none}
+.template-hero .photo-label{left:28px;bottom:24px;border-radius:8px;background:#fff;color:#1b6370;box-shadow:0 8px 25px #173d4a1b}
+.hero-bubbles{position:absolute;z-index:2;left:-4%;right:-4%;bottom:-42px;height:105px;background:radial-gradient(ellipse at 10% 20%,#fff 0 25%,transparent 26%),radial-gradient(ellipse at 30% 40%,#fff 0 24%,transparent 25%),radial-gradient(ellipse at 52% 25%,#fff 0 26%,transparent 27%),radial-gradient(ellipse at 75% 35%,#fff 0 25%,transparent 26%),radial-gradient(ellipse at 94% 15%,#fff 0 25%,transparent 26%);background-size:31% 100%;background-repeat:repeat-x;filter:drop-shadow(0 -4px 8px #fff9)}
+.services.section{padding:42px 0 62px;background:#fff}
+.services .section-heading{margin-bottom:24px}
+.services .section-heading .eyebrow{color:#2cb8ba}
+.services .section-heading h2{font-size:clamp(26px,3vw,36px);color:#2b3b50}
+.services .section-heading>p:last-child{color:#7b8998}
+.services .service-grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:13px}
+.services .service-card{min-height:104px;padding:13px 9px 12px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:7px;background:#39c3c2;border:1px solid #50d1ce;border-radius:13px;color:#fff;box-shadow:0 8px 18px #22aeb22b;transition:transform .25s,box-shadow .25s,background .25s}
+.services .service-card:hover{background:#23adaf;transform:translateY(-6px);box-shadow:0 14px 25px #22aeb244}
+.services .line-icon{width:39px;height:36px;min-width:0;background:transparent;color:#fff;border:1px solid #ffffff55;border-radius:10px;font-size:24px}
+.services .service-card b{font-size:11px;color:#fff;text-align:center;line-height:1.2;padding:0}
+.services .service-card i{position:static;width:auto;height:auto;background:transparent;color:#e8ffff;font-size:11px;display:none}
+.feature-band{padding:14px 0 82px;background:#fff}
+.feature-inner{max-width:1160px;display:grid;grid-template-columns:1.1fr .9fr;gap:54px;align-items:center}
+.feature-image{height:330px;position:relative;border-radius:24px;overflow:hidden;border:5px solid #e4f7f5;box-shadow:0 15px 35px #12375b12}
+.feature-image img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .7s}
+.feature-image:hover img{transform:scale(1.045)}
+.feature-stamp{position:absolute;left:20px;bottom:20px;padding:13px 17px;border-radius:10px;background:#fff;color:#159ba5;font:800 10px/1.5 Manrope;letter-spacing:1.4px}
+.feature-copy .eyebrow{font-size:10px;letter-spacing:1.8px;color:#26b7b8}
+.feature-copy h2{font:800 clamp(29px,3.1vw,42px)/1.13 Manrope;color:#29384f;margin:0 0 15px;letter-spacing:-1.2px}
+.feature-copy>p:not(.eyebrow){font-size:14px;line-height:1.85;color:#718097;margin:0 0 22px}
+.feature-copy .button{border-radius:7px;background:#36bfc0}
+.rentals.section{background:#f4fbfb;padding:70px 0 76px}
+.rental-heading h2{color:#29384f}
+.rental-heading h2 em{color:#31babb}
+.rental-card{border-color:#e4f1f1}
+.benefits{background:#effafa}
+.about-brand-panel{box-shadow:0 14px 36px #17385b0c}
+.booking{background:linear-gradient(135deg,#f0fbfb,#f8fcff)}
+.booking h2{color:#29384f}
+.booking .blue-button{background:#36bfc0}
+footer{background:#10265c}
+.floating-wa{background:#25bd78}
+@media(max-width:1050px){.template-hero .hero-inner{min-height:440px;grid-template-columns:.95fr 1.05fr;padding:35px 0 58px}.template-hero .hero-photo{height:360px;min-height:360px}.services .service-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.nav-links{gap:9px}.nav-links>a{font-size:11px}}
+@media(max-width:760px){
+.topbar{height:auto;min-height:30px}.topbar-inner{gap:12px;flex-wrap:wrap;padding:7px 0}.topbar-inner>a{display:none}
+.header{height:68px}.template-hero .hero-inner{display:flex;flex-direction:column;gap:8px;min-height:0;padding:30px 0 65px}
+.template-hero .hero-copy{padding:0 2px 8px;width:100%}
+.template-hero h1{font-size:clamp(36px,9.5vw,48px);max-width:460px}
+.template-hero .hero-description{font-size:13px;line-height:1.7}
+.hero-promise{font-size:11px;gap:6px}
+.template-hero .hero-photo{width:100%;height:260px;min-height:260px;border-radius:0;overflow:hidden}
+.template-hero .hero-photo .hero-main-image{clip-path:ellipse(78% 86% at 55% 55%);object-position:center 28%}
+.template-hero .photo-label{left:18px;bottom:14px}
+.hero-bubbles{height:78px;bottom:-35px}
+.services.section{padding:34px 0 48px}
+.services .section-heading{margin-bottom:18px}
+.services .section-heading h2{font-size:25px}
+.services .service-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.services .service-card{min-height:92px;border-radius:11px;padding:9px 4px}
+.services .line-icon{width:34px;height:32px;font-size:21px}
+.services .service-card b{font-size:10px}
+.feature-band{padding:0 0 52px}
+.feature-inner{grid-template-columns:1fr;gap:23px}
+.feature-image{height:230px;border-radius:17px}
+.feature-copy h2{font-size:30px}
+.rentals.section{padding:48px 0}
+}
+@media(prefers-reduced-motion:reduce){.feature-image img{transition:none}}
