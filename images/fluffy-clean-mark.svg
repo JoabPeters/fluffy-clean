@@ -6,7 +6,7 @@
 </g>
 <rect x="66" y="128" width="168" height="125" rx="14" fill="#071c5b"/>
 <circle cx="150" cy="190" r="49" fill="#fff"/>
-<circle cx="150" cy="190" r="39" fill="#079fe7"/>
+<circle cx="150" cy="190" r="39" fill="#079fe7"/><path d="M119 188a32 32 0 0 1 51-24M126 207a31 31 0 0 1 40-38" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
 <path d="M134 169h31c6 0 9 4 9 9s-4 9-9 9h-14v27h-17z" fill="#071c5b"/>
 <circle cx="201" cy="145" r="7" fill="#fff"/><circle cx="219" cy="145" r="7" fill="#fff"/>
 <g fill="#079fe7">
